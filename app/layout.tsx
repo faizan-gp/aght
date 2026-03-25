@@ -51,8 +51,8 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://arcadegameshoustontexas.com/",
-    languages: { "en-US": "https://arcadegameshoustontexas.com/" },
+    canonical: "https://arcadegameshoustontexas.com",
+    languages: { "en-US": "https://arcadegameshoustontexas.com" },
   },
 };
 

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "6 top arcade game venues in Houston TX. Retro, VR, bar arcades, family gaming. Complete guide.",
     images: ["https://arcadegameshoustontexas.com/OG.jpg"],
   },
-  alternates: { canonical: "https://arcadegameshoustontexas.com/" },
+  alternates: { canonical: "https://arcadegameshoustontexas.com" },
   robots: { index: true, follow: true },
 };
 
