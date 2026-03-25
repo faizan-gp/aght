@@ -10,9 +10,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const total = live?.totalRatings ?? STATIC_TOTAL;
 
   return {
-    title: "Arcade Houston Reviews | Google Reviews & Customer Ratings",
-    description: `Read real customer reviews of Arcade Houston's VR arena. Rated 5.0 stars from ${total}+ Google reviews. See what Houston arcade fans are saying about our free-roam VR experience.`,
-    alternates: { canonical: "https://arcadehouston.com/reviews" },
+    title: "Arcade Games Houston Texas Reviews | Google Reviews & Customer Ratings",
+    description: `Read real customer reviews of Arcade Games Houston Texas's VR arena. Rated 5.0 stars from ${total}+ Google reviews. See what Houston arcade fans are saying about our free-roam VR experience.`,
+    alternates: { canonical: "https://arcadegameshoustontexas.com/reviews" },
   };
 }
 

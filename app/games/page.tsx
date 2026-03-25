@@ -5,17 +5,17 @@ import { allGames } from "@/lib/gamesData";
 import BookGameButton from "@/components/BookBtn";
 
 export const metadata: Metadata = {
-  title: "VR Arcade Games Houston | 8 Free-Roam Games | Arcade Houston",
-  description: "Arcade Houston's VR arena offers 8 free-roam VR games for groups of 2 to 8 players — zombie survival, sci-fi wave defense, PvP esports, horror, family exploration, and tropical action. Webster TX.",
-  alternates: { canonical: "https://arcadehouston.com/games" },
+  title: "VR Arcade Games Houston Texas | 8 Free-Roam Games | Arcade Games Houston Texas",
+  description: "Arcade Games Houston Texas VR arena offers 8 free-roam VR games for groups of 2 to 8 players — zombie survival, sci-fi wave defense, PvP esports, horror, family exploration, and tropical action. Webster TX.",
+  alternates: { canonical: "https://arcadegameshoustontexas.com/games" },
 };
 
 const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadehouston.com/" } },
-    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadehouston.com/games" } },
+    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadegameshoustontexas.com/" } },
+    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadegameshoustontexas.com/games" } },
   ],
 };
 
@@ -26,7 +26,7 @@ export default function GamesPage() {
       <section className="py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="text-center mb-12">
-            <h1 className="font-orbitron text-4xl md:text-5xl font-black text-white">Arcade Houston <span className="text-stroke-cyan">VR Game Library</span></h1>
+            <h1 className="font-orbitron text-4xl md:text-5xl font-black text-white">Arcade Games Houston Texas <span className="text-stroke-cyan">VR Game Library</span></h1>
             <p className="mt-4 max-w-2xl mx-auto text-[#7DD3FC] text-base">8 free-roam VR games at Houston's only wireless VR arena — zombie survival, Warhammer 40K, PvP esports, horror, and family exploration for groups of 2 to 8 players.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">

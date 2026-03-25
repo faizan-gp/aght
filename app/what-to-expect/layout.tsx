@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'What to Expect at Arcade Houston | VR Visitor Guide',
+  title: 'What to Expect at Arcade Games Houston Texas | VR Visitor Guide',
   description: 'First time at our Houston VR arcade? 5-step guide: book online, check in, gear up, play, and debrief. Arrive 10-15 minutes early. Closed-toe shoes required.',
   keywords: [
     'what to expect arcade houston',
@@ -13,19 +13,19 @@ export const metadata: Metadata = {
     'houston arcade visit guide',
     'arcade houston',
   ],
-  alternates: { canonical: 'https://arcadehouston.com/what-to-expect' },
+  alternates: { canonical: 'https://arcadegameshoustontexas.com/what-to-expect' },
   openGraph: {
-    title: 'What to Expect at Arcade Houston | VR Visitor Guide',
+    title: 'What to Expect at Arcade Games Houston Texas | VR Visitor Guide',
     description: 'First time at Houston\'s VR arcade? 5-step guide: book, check in, gear up, play, debrief. Arrive 10-15 minutes early.',
-    url: 'https://arcadehouston.com/what-to-expect',
-    siteName: 'Arcade Houston',
+    url: 'https://arcadegameshoustontexas.com/what-to-expect',
+    siteName: 'Arcade Games Houston Texas',
     type: 'website',
-    images: [{ url: 'https://arcadehouston.com/og-what-to-expect.webp', width: 1200, height: 630, alt: 'What to Expect at Arcade Houston VR Arcade' }],
+    images: [{ url: 'https://arcadegameshoustontexas.com/og-what-to-expect.webp', width: 1200, height: 630, alt: 'What to Expect at Arcade Games Houston Texas VR Arcade' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'What to Expect at Arcade Houston | VR Visitor Guide',
-    description: '5-step guide to your Arcade Houston VR visit — booking, arrival, gear-up, gameplay, and debrief.',
+    title: 'What to Expect at Arcade Games Houston Texas | VR Visitor Guide',
+    description: '5-step guide to your Arcade Games Houston Texas VR visit — booking, arrival, gear-up, gameplay, and debrief.',
   },
 };
 

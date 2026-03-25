@@ -10,12 +10,12 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Far Cry VR at Zero Latency Webster, Houston | Escape the Island Free-Roam VR",
   description: "Far Cry VR at Zero Latency Webster, Houston sends 2–6 players into the Far Cry 3 universe for a 50-minute free-roam VR mission across jungle, caves, and enemy territory. Book now in Houston, Texas.",
-  alternates: { canonical: "https://arcadehouston.com/games/far-cry-vr" },
+  alternates: { canonical: "https://arcadegameshoustontexas.com/games/far-cry-vr" },
   openGraph: {
     title: "Far Cry VR at Zero Latency Webster, Houston",
     description: "Play Far Cry VR at Zero Latency Webster, Houston — a 50-minute free-roam VR co-op adventure for 2–6 players based on Far Cry 3. Escape a pirate island. Ages 13+. Houston, Texas.",
-    url: "https://arcadehouston.com/games/far-cry-vr",
-    images: [{ url: "https://arcadehouston.com/game-far-cry-vr.webp", width: 1200, height: 630, alt: "Far Cry VR at Zero Latency Webster, Houston" }],
+    url: "https://arcadegameshoustontexas.com/games/far-cry-vr",
+    images: [{ url: "https://arcadegameshoustontexas.com/game-far-cry-vr.webp", width: 1200, height: 630, alt: "Far Cry VR at Zero Latency Webster, Houston" }],
   },
 };
 
@@ -27,17 +27,17 @@ const gameSchema = {
   "genre": "Tropical Action",
   "numberOfPlayers": { "@type": "QuantitativeValue", "minValue": 2, "maxValue": 6 },
   "gamePlatform": "Virtual Reality",
-  "url": "https://arcadehouston.com/games/far-cry-vr",
-  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadehouston.com" },
+  "url": "https://arcadegameshoustontexas.com/games/far-cry-vr",
+  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadegameshoustontexas.com" },
 };
 
 const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadehouston.com/" } },
-    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadehouston.com/games" } },
-    { "@type": "ListItem", "position": 3, "item": { "name": "Far Cry VR", "id": "https://arcadehouston.com/games/far-cry-vr" } },
+    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadegameshoustontexas.com/" } },
+    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadegameshoustontexas.com/games" } },
+    { "@type": "ListItem", "position": 3, "item": { "name": "Far Cry VR", "id": "https://arcadegameshoustontexas.com/games/far-cry-vr" } },
   ],
 };
 

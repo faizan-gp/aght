@@ -3,20 +3,20 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Arcades in Houston TX | Zero Latency VR Ranked #1 (2026 Guide)",
-  description: "Zero Latency Webster, Houston is the #1 arcade in Houston — 8 free-roam VR games, 5.0 stars, 2–8 players. Plus Cidercade, Game Preserve, Dave & Buster's and 4 more Houston arcades compared.",
+  title: "Arcade Games in Houston Texas | 7 Venues Ranked & Compared (2026 Guide)",
+  description: "Compare every arcade game venue in Houston Texas: Zero Latency VR (5.0★, 8 games), Cidercade (275+ games, $12), Game Preserve ($15 retro), Dave & Buster's, and 3 more. Prices, hours, locations.",
   openGraph: {
-    title: "Arcades in Houston TX | Zero Latency VR Ranked #1 (2026 Guide)",
+    title: "Arcade Games in Houston Texas | Zero Latency VR Ranked #1 (2026 Guide)",
     description: "Zero Latency Webster is Houston's #1 arcade: 8 free-roam VR games, 5.0 stars, 2–8 players. All 7 Houston arcades compared.",
     url: "https://arcadegameshoustontexas.com/arcade-games-in-houston",
     siteName: "Arcade Games Houston Texas",
-    images: [{ url: "https://arcadegameshoustontexas.com/OG.jpg", width: 1200, height: 630, alt: "Best arcades in Houston TX" }],
+    images: [{ url: "https://arcadegameshoustontexas.com/OG.jpg", width: 1200, height: 630, alt: "Best arcade games in Houston Texas TX" }],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Arcades in Houston TX | 6 Best Arcades Compared (2026 Guide)",
+    title: "Arcade Games in Houston Texas | 6 Best Arcades Compared (2026 Guide)",
     description: "Compare every arcade in Houston: Cidercade, Game Preserve, Dave & Buster's, Zero Latency VR.",
     images: ["https://arcadegameshoustontexas.com/OG.jpg"],
   },
@@ -29,15 +29,15 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://arcadegameshoustontexas.com/" },
-    { "@type": "ListItem", "position": 2, "name": "Arcades in Houston", "item": "https://arcadegameshoustontexas.com/arcade-games-in-houston" },
+    { "@type": "ListItem", "position": 2, "name": "Arcade Games in Houston Texas", "item": "https://arcadegameshoustontexas.com/arcade-games-in-houston" },
   ],
 };
 
 const itemListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "Best Arcades in Houston TX",
-  "description": "A comprehensive list of the best arcades in Houston, Texas, including Cidercade, The Game Preserve, Dave & Buster's, Zero Latency Webster, Houston, Great Wolf Lodge Arcade, and AR Entertainment Hub.",
+  "name": "Best Arcade Games in Houston Texas",
+  "description": "A comprehensive list of the best arcade games in Houston Texas, Texas, including Cidercade, The Game Preserve, Dave & Buster's, Zero Latency Webster, Houston, Great Wolf Lodge Arcade, and AR Entertainment Hub.",
   "url": "https://arcadegameshoustontexas.com/arcade-games-in-houston",
   "numberOfItems": 7,
   "itemListElement": [
@@ -111,7 +111,7 @@ const arcadeFaqs = [
     a: "For flat-admission arcades, Cidercade is $12 all-day and Game Preserve is $15. Zero Latency Webster, Houston runs $35–50 per person per session — a higher price for a categorically different experience. Most groups rate it the best value in Houston for the quality of the experience delivered.",
   },
   {
-    q: "Are there any arcades in Houston open late?",
+    q: "Are there any arcade games in Houston Texas open late?",
     a: "Cidercade and The Game Preserve are both open until midnight daily. Zero Latency Webster, Houston is open until 11pm (3pm start Mon-Tue, 2pm Wed-Thu, 11am Fri-Sun).",
   },
   {
@@ -340,7 +340,7 @@ export default function ArcadesInHoustonPage() {
           <nav className="text-sm text-gray-400 mb-6">
             <Link href="/" className="hover:text-gray-200 transition-colors">Home</Link>
             <span className="mx-2 text-gray-600">/</span>
-            <span className="text-gray-300">Arcades in Houston</span>
+            <span className="text-gray-300">Arcade Games in Houston Texas</span>
           </nav>
           <div className="inline-flex items-center gap-2 mb-5 px-4 py-1.5 rounded-full border border-cyan-500/50 bg-cyan-500/10 backdrop-blur-sm text-cyan-300 text-sm font-mono">
             <span className="text-yellow-400">★★★★★</span>
@@ -502,13 +502,13 @@ export default function ArcadesInHoustonPage() {
 
         {/* Internal links */}
         <section className="border border-white/10 rounded-xl p-6">
-          <h2 className="font-orbitron text-xl font-bold text-white mb-4">More Arcade Houston Guides</h2>
+          <h2 className="font-orbitron text-xl font-bold text-white mb-4">More Arcade Games Houston Texas Guides</h2>
           <div className="grid md:grid-cols-2 gap-3 text-sm">
-            <Link href="/blog/best-arcades-in-houston" className="text-cyan-400 hover:underline">Best arcades in Houston — full ranking →</Link>
+            <Link href="/blog/best-arcades-in-houston" className="text-cyan-400 hover:underline">Best arcade games in Houston Texas — full ranking →</Link>
             <Link href="/blog/retro-arcade-houston" className="text-cyan-400 hover:underline">Retro arcade Houston guide →</Link>
             <Link href="/blog/arcade-bar-houston" className="text-cyan-400 hover:underline">Arcade bar Houston — 18+ options →</Link>
-            <Link href="/blog/arcade-games-in-houston-for-kids" className="text-cyan-400 hover:underline">Arcades in Houston for kids →</Link>
-            <Link href="/blog/arcade-games-in-houston-for-adults" className="text-cyan-400 hover:underline">Arcades in Houston for adults →</Link>
+            <Link href="/blog/arcade-games-in-houston-for-kids" className="text-cyan-400 hover:underline">Arcade Games in Houston Texas for kids →</Link>
+            <Link href="/blog/arcade-games-in-houston-for-adults" className="text-cyan-400 hover:underline">Arcade Games in Houston Texas for adults →</Link>
             <Link href="/blog/free-play-arcades-houston" className="text-cyan-400 hover:underline">Free-play arcades Houston →</Link>
             <Link href="/blog/houston-arcade-birthday-party-guide" className="text-cyan-400 hover:underline">Arcade birthday party Houston guide →</Link>
             <Link href="/private-events" className="text-cyan-400 hover:underline">Book a private VR event →</Link>
@@ -529,7 +529,7 @@ export default function ArcadesInHoustonPage() {
               Book Your VR Session
             </a>
             <Link href="/" className="inline-block border border-white/30 hover:border-white/60 text-white px-8 py-4 rounded-lg transition-colors">
-              Back to Arcade Houston Guide
+              Back to Arcade Games Houston Texas Guide
             </Link>
           </div>
         </section>

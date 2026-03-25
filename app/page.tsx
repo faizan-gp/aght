@@ -3,84 +3,84 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Arcade Houston | Best Arcades, VR, Games & Entertainment Guide (2026)",
-  description: "Houston has 6 top arcades with 275+ games, free-roam VR, retro classics, and party venues. Cidercade charges $12 for all-day play. Zero Latency VR runs $35-50 per session. Complete guide to every arcade in Houston TX.",
+  title: "Arcade Games Houston Texas | Best Arcade Games, VR & Entertainment Guide (2026)",
+  description: "Houston Texas has 6 top arcade game venues with 275+ games, free-roam VR, retro classics, and party venues. Cidercade charges $12 for all-day play. Zero Latency VR runs $35-50 per session. Complete guide to every arcade game venue in Houston TX.",
   openGraph: {
-    title: "Arcade Houston | Best Arcades, VR, Games & Entertainment Guide (2026)",
-    description: "Houston has 6 top arcades with 275+ games, free-roam VR, retro classics, and party venues. Complete guide to every arcade in Houston TX.",
-    url: "https://arcadehouston.com/",
-    siteName: "Arcade Houston",
-    images: [{ url: "https://arcadehouston.com/OG.jpg", width: 1200, height: 630, alt: "Arcade Houston — best arcades and VR gaming in Houston TX" }],
+    title: "Arcade Games Houston Texas | Best Arcade Games, VR & Entertainment Guide (2026)",
+    description: "Houston Texas has 6 top arcade game venues with 275+ games, free-roam VR, retro classics, and party venues. Complete guide to every arcade game in Houston TX.",
+    url: "https://arcadegameshoustontexas.com/",
+    siteName: "Arcade Games Houston Texas",
+    images: [{ url: "https://arcadegameshoustontexas.com/OG.jpg", width: 1200, height: 630, alt: "Arcade Games Houston Texas — best arcade games and VR gaming in Houston TX" }],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Arcade Houston | Best Arcades, VR, Games & Entertainment Guide (2026)",
-    description: "6 top arcades in Houston TX. Retro, VR, bar arcades, family gaming. Complete guide.",
-    images: ["https://arcadehouston.com/OG.jpg"],
+    title: "Arcade Games Houston Texas | Best Arcade Games, VR & Entertainment Guide (2026)",
+    description: "6 top arcade game venues in Houston TX. Retro, VR, bar arcades, family gaming. Complete guide.",
+    images: ["https://arcadegameshoustontexas.com/OG.jpg"],
   },
-  alternates: { canonical: "https://arcadehouston.com/" },
+  alternates: { canonical: "https://arcadegameshoustontexas.com/" },
   robots: { index: true, follow: true },
 };
 
 const faqs = [
   {
-    q: "What is the best arcade in Houston?",
-    a: "Zero Latency Webster, Houston is the best arcade in Houston — rated 5.0 stars from 424+ Google reviews, the only free-roam VR arena in the city. 8 multiplayer VR games for 2–8 players, wireless backpacks, no cables. For traditional arcade machines, Cidercade has the most games (275+ on free play for $12). For retro gaming, The Game Preserve has pinball and classic cabinets. For food and sports, Dave & Buster's.",
+    q: "What are the best arcade games in Houston Texas?",
+    a: "The best arcade games in Houston Texas are at Zero Latency Webster, Houston — 8 free-roam VR games rated 5.0 stars from 424+ Google reviews, the most immersive arcade games in the city. For traditional arcade machines, Cidercade has the most games (275+ on free play for $12). For retro arcade games, The Game Preserve has pinball and classic cabinets. For food, drinks, and sports viewing, Dave & Buster's.",
   },
   {
-    q: "What is the biggest arcade in Houston?",
-    a: "Cidercade Houston has the most games at 275+. The Game Preserve NASA location in Webster has the largest floor space at 11,000 sq ft with 100+ retro games. Zero Latency Webster, Houston has a 2,000 sq ft VR arena dedicated to free-roam virtual reality.",
+    q: "Where can I find arcade games in Houston Texas?",
+    a: "Houston Texas has 7 arcade game venues: Zero Latency Webster (VR games, Webster), Cidercade Houston (275+ games, EaDo), The Game Preserve NASA (100+ retro games, Webster), The Game Preserve Woodlands (125 games, Spring), Dave & Buster's (multiple locations), Great Wolf Lodge Arcade (Webster), and AR Entertainment Hub (Baytown).",
   },
   {
-    q: "Are there arcades in Houston for adults?",
-    a: "Yes. Zero Latency Webster, Houston is the top adult arcade — 8 VR games built for groups of adults, perfect for date nights, birthdays, and bachelor/bachelorette parties. Cidercade switches to 18+ at 9pm with a full craft beer and cider bar. Dave & Buster's has cocktails at every Houston location.",
+    q: "Are there arcade games in Houston Texas for adults?",
+    a: "Yes. Zero Latency Webster, Houston is the top adult arcade game venue — 8 VR games built for groups of adults, perfect for date nights, birthdays, and bachelor/bachelorette parties. Cidercade switches to 18+ at 9pm with a full craft beer and cider bar. Dave & Buster's has cocktails at every Houston Texas location.",
   },
   {
-    q: "Are there arcades in Houston for kids?",
+    q: "Are there arcade games in Houston Texas for kids?",
     a: "Yes. The Game Preserve is family-oriented and allows all ages (under 16 must be with an adult). Cidercade is kid-friendly during daytime hours (18+ starts at 9pm). Zero Latency Webster, Houston has Engineerium, a non-combat VR game for ages 6 and up.",
   },
   {
-    q: "How much does it cost to go to an arcade in Houston?",
-    a: "Cidercade costs $12 for all-day free play on 275+ games. Game Preserve charges $15 for a day pass with unlimited play. Zero Latency Webster, Houston VR sessions run $35-50 per person for 30-50 minutes. Dave & Buster's uses a Power Card system where you load credits (prices vary by game).",
+    q: "How much do arcade games cost in Houston Texas?",
+    a: "Cidercade costs $12 for all-day free play on 275+ arcade games. Game Preserve charges $15 for a day pass with unlimited play. Zero Latency Webster, Houston VR game sessions run $35-50 per person for 30-50 minutes. Dave & Buster's uses a Power Card system where you load credits (prices vary by game).",
   },
   {
-    q: "Is there a free-play arcade in Houston?",
-    a: "Yes. Cidercade ($12 all-day) and The Game Preserve ($15 day pass) both set all games to free play — no tokens, no quarters, no Power Cards. Press start and play as many times as you want.",
+    q: "Are there free-play arcade games in Houston Texas?",
+    a: "Yes. Cidercade ($12 all-day) and The Game Preserve ($15 day pass) both set all arcade games to free play — no tokens, no quarters, no Power Cards. Press start and play as many times as you want.",
   },
   {
-    q: "What is free-roam VR?",
-    a: "Free-roam VR is full-body virtual reality where players physically walk, run, and move through a large tracked space while wearing wireless headsets and backpacks. Zero Latency Webster, Houston operates a 2,000 sq ft free-roam VR arena where up to 8 players move together through virtual worlds with no cables attached.",
+    q: "What are VR arcade games in Houston Texas?",
+    a: "VR arcade games in Houston Texas are virtual reality experiences at Zero Latency Webster, Houston — a free-roam VR arena with 8 multiplayer games for 2–8 players. Players wear wireless backpacks and VR headsets to physically move through a 2,000 sq ft space. Games include zombie survival, sci-fi missions, PvP esports, and family adventures.",
   },
   {
-    q: "Can I host a birthday party at a Houston arcade?",
-    a: "Yes. Every major Houston arcade offers party options. Zero Latency Webster, Houston has private arena sessions with a Game Master. Game Preserve rents a private party room for $250 (10 people, 2 hours). Cidercade has private party zones. Dave & Buster's has birthday packages with food and Power Card credits.",
+    q: "Can I host an arcade game birthday party in Houston Texas?",
+    a: "Yes. Every major Houston Texas arcade game venue offers party options. Zero Latency Webster, Houston has private arena sessions with a Game Master. Game Preserve rents a private party room for $250 (10 people, 2 hours). Cidercade has private party zones. Dave & Buster's has birthday packages with food and Power Card credits.",
   },
   {
-    q: "Which Houston arcade has a bar?",
-    a: "Cidercade Houston and Dave & Buster's both have full bars. Cidercade brews their own hard ciders and craft beers. Dave & Buster's serves classic cocktails and specialty drinks. Cidercade is 18+ after 9pm.",
+    q: "Which Houston Texas arcade has a bar?",
+    a: "Cidercade Houston and Dave & Buster's both have full bars with arcade games. Cidercade brews their own hard ciders and craft beers. Dave & Buster's serves classic cocktails and specialty drinks. Cidercade is 18+ after 9pm.",
   },
   {
-    q: "Is Zero Latency Webster, Houston an arcade?",
-    a: "Zero Latency Webster, Houston is a VR arcade — a free-roam virtual reality arena with 8 multiplayer games. Players wear wireless backpacks and VR headsets to physically move through a 2,000 sq ft space. Games include zombie survival, sci-fi missions, PvP esports, and family adventures for 2-8 players per session.",
+    q: "What retro arcade games are in Houston Texas?",
+    a: "The Game Preserve has the best retro arcade games in Houston Texas — 100+ classic cabinets at both their Webster (NASA) and Woodlands locations, including pinball machines, Street Fighter, Pac-Man, and other vintage games for a $15 day pass. Cidercade also has a retro section in their 275+ game collection.",
   },
   {
-    q: "Where is Cidercade Houston located?",
-    a: "Cidercade Houston is at 2320 Canal St Suite 100 in East Downtown Houston (EaDo), near Daikin Park and Shell Energy Stadium.",
+    q: "Where is Cidercade Houston Texas located?",
+    a: "Cidercade Houston is at 2320 Canal St Suite 100 in East Downtown Houston (EaDo), near Daikin Park and Shell Energy Stadium. 275+ arcade games on free play for $12 all-day admission.",
   },
   {
-    q: "Do any Houston arcades have VR?",
-    a: "Zero Latency Webster, Houston has the most advanced VR — wireless free-roam arena-scale virtual reality for up to 8 players. Dave & Buster's has some seated VR games on the Power Card system. AR Entertainment Hub in Baytown has a Valo Arena mixed-reality experience.",
+    q: "Do Houston Texas arcades have VR games?",
+    a: "Zero Latency Webster, Houston has the most advanced VR arcade games in Houston Texas — wireless free-roam arena-scale virtual reality for up to 8 players across 8 different games. Dave & Buster's has some seated VR games on the Power Card system. AR Entertainment Hub in Baytown has a Valo Arena mixed-reality experience.",
   },
 ];
 
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "EntertainmentBusiness"],
-  "name": "Arcade Houston - Zero Latency VR",
-  "image": "https://arcadehouston.com/OG.jpg",
-  "url": "https://arcadehouston.com/",
+  "name": "Arcade Games Houston Texas - Zero Latency VR",
+  "image": "https://arcadegameshoustontexas.com/OG.jpg",
+  "url": "https://arcadegameshoustontexas.com/",
   "telephone": "+14694049149",
   "email": "zero@zlwebster.com",
   "aggregateRating": {
@@ -135,6 +135,7 @@ const localBusinessJsonLd = {
     "https://twitter.com/zlwebster",
   ],
   "potentialAction": { "@type": "ReserveAction", "target": "https://booking.zerolatencyvr.com/en/book-now/webster" },
+  "@id": "https://arcadegameshoustontexas.com/#localbusiness",
 };
 
 const faqJsonLd = {
@@ -150,10 +151,10 @@ const faqJsonLd = {
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Arcade and Entertainment Hubs: A Comprehensive Guide",
-  "description": "Houston has 6 major arcade venues covering retro free-play, VR arenas, and bar-cade concepts. This guide covers all arcades in Houston TX.",
-  "url": "https://arcadehouston.com/",
-  "publisher": { "@id": "https://arcadehouston.com/#organization" },
+  "headline": "Arcade Games and Entertainment Venues: A Comprehensive Houston Texas Guide",
+  "description": "Houston Texas has 6 major arcade game venues covering retro free-play, VR arenas, and bar-cade concepts. This guide covers all arcade games in Houston TX.",
+  "url": "https://arcadegameshoustontexas.com/",
+  "publisher": { "@id": "https://arcadegameshoustontexas.com/#organization" },
   "datePublished": "2026-03-01",
   "dateModified": "2026-03-25",
 };
@@ -205,19 +206,19 @@ export default function Page() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full border border-cyan-500/50 bg-cyan-500/10 backdrop-blur-sm">
             <span className="text-yellow-400 text-sm">★★★★★</span>
-            <span className="text-cyan-300 text-sm font-mono">5.0 · 424+ Google Reviews · Houston&apos;s #1 Rated Arcade</span>
+            <span className="text-cyan-300 text-sm font-mono">5.0 · 424+ Google Reviews · Houston Texas&apos;s #1 Rated Arcade</span>
           </div>
 
-          <h1 className="font-orbitron text-5xl md:text-7xl font-black text-white mb-6 leading-[1.05] tracking-tight">
-            Arcade<br className="md:hidden" />{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">Houston</span>
+          <h1 className="font-orbitron text-4xl md:text-6xl font-black text-white mb-6 leading-[1.05] tracking-tight">
+            Arcade Games<br className="md:hidden" />{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">Houston Texas</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-200 mb-3 max-w-2xl mx-auto font-light leading-relaxed">
-            Zero Latency Webster is Houston&apos;s only free-roam VR arena — 8 multiplayer games, wireless backpacks, 2,000 sq ft. No cables.
+            Zero Latency Webster is Houston Texas&apos;s only free-roam VR arcade — 8 multiplayer games, wireless backpacks, 2,000 sq ft. No cables.
           </p>
           <p className="text-base text-gray-400 mb-10 max-w-xl mx-auto">
-            Plus every other Houston arcade reviewed: Cidercade, Game Preserve, Dave &amp; Buster&apos;s, and more.
+            Plus every other arcade game venue in Houston Texas reviewed: Cidercade, Game Preserve, Dave &amp; Buster&apos;s, and more.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -229,10 +230,10 @@ export default function Page() {
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
             </a>
             <Link
-              href="/arcades-in-houston"
+              href="/arcade-games-in-houston"
               className="inline-flex items-center justify-center gap-2 border border-white/30 hover:border-white/60 hover:bg-white/5 text-white px-8 py-4 rounded-xl transition-all duration-200 text-base"
             >
-              Compare All 7 Arcades
+              Compare All 7 Arcade Games Venues
             </Link>
           </div>
 
@@ -283,10 +284,10 @@ export default function Page() {
         {/* H2: Find an Arcade Near You */}
         <section className="mb-20">
           <div className="mb-8">
-            <span className="text-xs font-mono text-cyan-500 uppercase tracking-widest">Houston Arcade Guide</span>
-            <h2 className="font-orbitron text-3xl md:text-4xl font-bold text-white mt-2 mb-3">Find an Arcade Near You</h2>
+            <span className="text-xs font-mono text-cyan-500 uppercase tracking-widest">Houston Texas Arcade Games Guide</span>
+            <h2 className="font-orbitron text-3xl md:text-4xl font-bold text-white mt-2 mb-3">Find Arcade Games Near You in Houston Texas</h2>
             <p className="text-gray-400 max-w-2xl">
-              Houston has 7 arcade and entertainment venues, from $12 all-day free play to $50 VR sessions. The right one depends on what you want: most games, most immersive, or best bar scene.
+              Houston Texas has 7 arcade game venues, from $12 all-day free play to $50 VR game sessions. The right one depends on what you want: most games, most immersive, or best bar scene.
             </p>
           </div>
           <div className="overflow-x-auto rounded-xl border border-white/10 shadow-xl">
@@ -323,8 +324,8 @@ export default function Page() {
           </div>
           <div className="mt-4 flex items-center justify-between text-sm text-gray-500">
             <span>★ Editor&apos;s pick</span>
-            <Link href="/arcades-in-houston" className="text-cyan-400 hover:text-cyan-300 transition-colors flex items-center gap-1">
-              Full profiles for all 7 arcades
+            <Link href="/arcade-games-in-houston" className="text-cyan-400 hover:text-cyan-300 transition-colors flex items-center gap-1">
+              Full profiles for all 7 arcade game venues
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
             </Link>
           </div>
@@ -346,7 +347,7 @@ export default function Page() {
             <div className="absolute top-4 left-5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-cyan-500/50 bg-black/60 backdrop-blur-sm text-cyan-400 text-xs font-mono uppercase tracking-wider">
                 <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
-                Houston&apos;s #1 Rated Arcade
+                Houston Texas #1 Rated Arcade Games
               </span>
             </div>
             <div className="absolute bottom-5 left-5 right-5 flex items-end justify-between gap-4">
@@ -400,7 +401,7 @@ export default function Page() {
                   <Link href="/experiences" className="inline-flex items-center gap-2 border border-white/20 hover:border-white/40 hover:bg-white/5 text-white px-6 py-3 rounded-xl transition-all duration-200 text-sm">
                     View All 8 Games
                   </Link>
-                  <Link href="/arcades-in-houston#rank-1" className="inline-flex items-center gap-1 text-cyan-400 hover:text-cyan-300 px-3 py-3 transition-colors text-sm">
+                  <Link href="/arcade-games-in-houston#rank-1" className="inline-flex items-center gap-1 text-cyan-400 hover:text-cyan-300 px-3 py-3 transition-colors text-sm">
                     Full Profile →
                   </Link>
                 </div>
@@ -476,7 +477,7 @@ export default function Page() {
                 <p className="text-gray-300">
                   Pinball machines, classic fighting games, and racing cabinets define the retro gaming category. The Game Preserve specializes in retro with Adaptive Flipper Control (AFC) for accessible pinball play. Their Webster NASA location has 100+ retro machines in 11,000 sq ft. The Woodlands location has 125 games in 6,500 sq ft.
                 </p>
-                <Link href="/blog/retro-arcade-houston" className="text-cyan-400 hover:underline text-sm mt-2 inline-block">Read the retro arcade Houston guide →</Link>
+                <Link href="/blog/retro-arcade-games-houston-texas" className="text-cyan-400 hover:underline text-sm mt-2 inline-block">Read the retro arcade games Houston Texas guide →</Link>
               </div>
             </div>
           </div>
@@ -662,8 +663,8 @@ export default function Page() {
               ))}
             </div>
             <div className="mt-4 flex gap-4 text-sm">
-              <Link href="/blog/arcades-in-houston-for-kids" className="text-cyan-400 hover:underline">Kid-friendly arcade guide →</Link>
-              <Link href="/blog/arcade-bar-houston" className="text-cyan-400 hover:underline">Arcade bar Houston guide →</Link>
+              <Link href="/blog/arcade-games-houston-texas-for-kids" className="text-cyan-400 hover:underline">Kid-friendly arcade games Houston Texas guide →</Link>
+              <Link href="/blog/arcade-bar-games-houston-texas" className="text-cyan-400 hover:underline">Arcade bar games Houston Texas guide →</Link>
             </div>
           </div>
         </section>
@@ -742,7 +743,7 @@ export default function Page() {
                   <li><strong className="text-white">Game Preserve:</strong> $250 private room with 10 people included.</li>
                   <li><strong className="text-white">Dave &amp; Buster&apos;s:</strong> Birthday packages with Power Card credits and reserved seating.</li>
                 </ul>
-                <Link href="/blog/houston-arcade-birthday-party-guide" className="text-cyan-400 hover:underline text-sm mt-3 inline-block">Full birthday party guide →</Link>
+                <Link href="/blog/arcade-game-party-venues-houston-texas" className="text-cyan-400 hover:underline text-sm mt-3 inline-block">Full arcade game birthday party Houston Texas guide →</Link>
               </div>
               <div>
                 <h4 className="text-lg font-bold text-white mb-3">Company Events</h4>
@@ -751,7 +752,7 @@ export default function Page() {
                   <li><strong className="text-white">Dave &amp; Buster&apos;s:</strong> Private meeting rooms. 25% more gameplay on group event bookings.</li>
                   <li><strong className="text-white">Cidercade:</strong> Full-arcade takeovers for large groups.</li>
                 </ul>
-                <Link href="/blog/team-building-activities-houston" className="text-cyan-400 hover:underline text-sm mt-3 inline-block">Team building guide →</Link>
+                <Link href="/blog/houston-team-building-arcade-games" className="text-cyan-400 hover:underline text-sm mt-3 inline-block">Houston team building arcade games guide →</Link>
               </div>
             </div>
             <div className="space-y-4">
@@ -929,10 +930,10 @@ export default function Page() {
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
               </a>
               <Link
-                href="/arcades-in-houston"
+                href="/arcade-games-in-houston"
                 className="inline-flex items-center justify-center gap-2 border border-white/30 hover:border-white/60 hover:bg-white/5 text-white px-8 py-4 rounded-xl transition-all duration-200"
               >
-                Compare All Houston Arcades
+                Compare All Houston Texas Arcade Game Venues
               </Link>
             </div>
           </div>

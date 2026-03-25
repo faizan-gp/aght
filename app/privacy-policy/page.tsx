@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Arcade Houston',
-  description: 'Privacy Policy for Arcade Houston. Learn how we collect, use, and protect your personal information.',
-  alternates: { canonical: 'https://arcadehouston.com/privacy-policy' },
+  title: 'Privacy Policy | Arcade Games Houston Texas',
+  description: 'Privacy Policy for Arcade Games Houston Texas. Learn how we collect, use, and protect your personal information.',
+  alternates: { canonical: 'https://arcadegameshoustontexas.com/privacy-policy' },
   robots: { index: true, follow: true },
 };
 

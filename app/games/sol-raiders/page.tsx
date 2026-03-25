@@ -10,12 +10,12 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Sol Raiders at Zero Latency Webster, Houston | PvP Team vs Team Free-Roam VR",
   description: "Sol Raiders at Zero Latency Webster, Houston is a team vs team PvP free-roam VR game for 4–8 players. Split into 2 squads and compete in objective-based arenas for 30–50 minutes in Houston, Texas.",
-  alternates: { canonical: "https://arcadehouston.com/games/sol-raiders" },
+  alternates: { canonical: "https://arcadegameshoustontexas.com/games/sol-raiders" },
   openGraph: {
     title: "Sol Raiders at Zero Latency Webster, Houston",
     description: "Sol Raiders at Zero Latency Webster, Houston splits 4–8 players into 2 rival squads for objective-based PvP free-roam VR combat. 30–50 minute sessions. Ages 13+. Houston, Texas.",
-    url: "https://arcadehouston.com/games/sol-raiders",
-    images: [{ url: "https://arcadehouston.com/game-sol-raiders.webp", width: 1200, height: 630, alt: "Sol Raiders PvP VR at Zero Latency Webster, Houston" }],
+    url: "https://arcadegameshoustontexas.com/games/sol-raiders",
+    images: [{ url: "https://arcadegameshoustontexas.com/game-sol-raiders.webp", width: 1200, height: 630, alt: "Sol Raiders PvP VR at Zero Latency Webster, Houston" }],
   },
 };
 
@@ -27,17 +27,17 @@ const gameSchema = {
   "genre": "PvP Esports",
   "numberOfPlayers": { "@type": "QuantitativeValue", "minValue": 4, "maxValue": 8 },
   "gamePlatform": "Virtual Reality",
-  "url": "https://arcadehouston.com/games/sol-raiders",
-  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadehouston.com" },
+  "url": "https://arcadegameshoustontexas.com/games/sol-raiders",
+  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadegameshoustontexas.com" },
 };
 
 const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadehouston.com/" } },
-    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadehouston.com/games" } },
-    { "@type": "ListItem", "position": 3, "item": { "name": "Sol Raiders", "id": "https://arcadehouston.com/games/sol-raiders" } },
+    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadegameshoustontexas.com/" } },
+    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadegameshoustontexas.com/games" } },
+    { "@type": "ListItem", "position": 3, "item": { "name": "Sol Raiders", "id": "https://arcadegameshoustontexas.com/games/sol-raiders" } },
   ],
 };
 

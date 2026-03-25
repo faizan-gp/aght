@@ -2,15 +2,15 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Site Map | Arcade Houston',
-  description: 'Complete HTML sitemap for Arcade Houston — all pages including Houston arcade guides, VR games, blog posts, experiences, and booking information.',
-  alternates: { canonical: 'https://arcadehouston.com/sitemap-html' },
+  title: 'Site Map | Arcade Games Houston Texas',
+  description: 'Complete HTML sitemap for Arcade Games Houston Texas — all pages including Houston arcade games guides, VR games, blog posts, experiences, and booking information.',
+  alternates: { canonical: 'https://arcadegameshoustontexas.com/sitemap-html' },
   robots: { index: true, follow: true },
 };
 
 const mainPages = [
   { label: 'Home', href: '/' },
-  { label: 'Arcades in Houston', href: '/arcades-in-houston' },
+  { label: 'Arcades in Houston', href: '/arcade-games-in-houston' },
   { label: 'Experiences', href: '/experiences' },
   { label: 'Games', href: '/games' },
   { label: 'What to Expect', href: '/what-to-expect' },
@@ -32,26 +32,26 @@ const gamePages = [
 ];
 
 const blogSlugs = [
-  { label: 'Best Arcades in Houston TX (2026)', slug: 'best-arcades-in-houston' },
-  { label: 'Cidercade Houston Review', slug: 'cidercade-houston-review' },
-  { label: 'Game Preserve Houston Review', slug: 'game-preserve-houston-review' },
-  { label: 'Retro Arcade Houston', slug: 'retro-arcade-houston' },
-  { label: 'Arcade Bar Houston', slug: 'arcade-bar-houston' },
-  { label: 'Arcades in Houston for Kids', slug: 'arcades-in-houston-for-kids' },
-  { label: 'Arcades in Houston for Adults', slug: 'arcades-in-houston-for-adults' },
-  { label: 'Free Play Arcades Houston', slug: 'free-play-arcades-houston' },
-  { label: 'Houston Arcade Birthday Party Guide', slug: 'houston-arcade-birthday-party-guide' },
-  { label: 'Bachelor & Bachelorette Party Houston', slug: 'bachelor-bachelorette-party-houston' },
-  { label: 'VR Arcade Houston', slug: 'vr-arcade-houston' },
-  { label: 'Best VR Games in Houston', slug: 'best-vr-games-houston-zero-latency' },
-  { label: 'Zero Latency Webster, Houston Complete Guide', slug: 'zero-latency-houston-complete-guide' },
-  { label: 'Things to Do in Houston This Weekend', slug: 'things-to-do-houston-texas-this-weekend' },
-  { label: 'Things to Do in Clear Lake Houston', slug: 'things-to-do-clear-lake-houston' },
-  { label: 'Things to Do in Webster TX', slug: 'things-to-do-webster-tx' },
-  { label: 'Birthday Party Ideas Houston', slug: 'birthday-party-ideas-houston' },
-  { label: 'Team Building Activities Houston', slug: 'team-building-activities-houston' },
-  { label: 'Date Night Ideas Houston', slug: 'date-night-ideas-houston' },
-  { label: 'Group Activities Houston TX', slug: 'group-activities-houston-tx' },
+  { label: 'Best Arcade Games in Houston Texas (2026)', slug: 'best-arcade-games-houston-texas' },
+  { label: 'Cidercade Houston Arcade Games Review', slug: 'cidercade-houston-arcade-games-review' },
+  { label: 'Game Preserve Houston Arcade Games Review', slug: 'game-preserve-houston-arcade-games-review' },
+  { label: 'Retro Arcade Games Houston Texas', slug: 'retro-arcade-games-houston-texas' },
+  { label: 'Arcade Bar Games Houston Texas', slug: 'arcade-bar-games-houston-texas' },
+  { label: 'Arcade Games Houston Texas for Kids', slug: 'arcade-games-houston-texas-for-kids' },
+  { label: 'Arcade Games Houston Texas for Adults', slug: 'arcade-games-houston-texas-for-adults' },
+  { label: 'Free Play Arcade Games Houston Texas', slug: 'free-play-arcade-games-houston-texas' },
+  { label: 'Arcade Game Party Venues Houston Texas', slug: 'arcade-game-party-venues-houston-texas' },
+  { label: 'Bachelor & Bachelorette Party Arcade Games Houston', slug: 'bachelor-bachelorette-party-games-houston-texas' },
+  { label: 'VR Arcade Games Houston Texas', slug: 'vr-games-houston-texas' },
+  { label: 'Best VR Arcade Games in Houston Texas', slug: 'best-vr-games-houston-texas' },
+  { label: 'Zero Latency Webster Houston VR Games Guide', slug: 'zero-latency-houston-vr-games-guide' },
+  { label: 'Fun Things to Do in Houston Texas This Weekend', slug: 'fun-things-houston-texas-this-weekend' },
+  { label: 'Activities in Clear Lake Houston TX', slug: 'activities-clear-lake-houston-tx' },
+  { label: 'Things to Do in Webster Texas', slug: 'things-to-do-webster-texas' },
+  { label: 'Arcade Game Birthday Party Houston', slug: 'arcade-game-birthday-party-houston' },
+  { label: 'Houston Team Building Arcade Games', slug: 'houston-team-building-arcade-games' },
+  { label: 'Houston Date Night Arcade Games', slug: 'houston-date-night-arcade-games' },
+  { label: 'Arcade Games Group Activities Houston TX', slug: 'arcade-games-group-activities-houston' },
 ];
 
 const legalPages = [

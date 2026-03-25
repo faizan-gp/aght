@@ -10,12 +10,12 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Engineerium at Zero Latency Webster, Houston | Family-Friendly Free-Roam VR",
   description: "Engineerium at Zero Latency Webster, Houston is a no-combat free-roam VR adventure for 1–8 players aged 10 and up. Explore floating worlds and giant sky creatures in a 20-minute session in Houston, Texas.",
-  alternates: { canonical: "https://arcadehouston.com/games/engineerium" },
+  alternates: { canonical: "https://arcadegameshoustontexas.com/games/engineerium" },
   openGraph: {
     title: "Engineerium at Zero Latency Webster, Houston",
     description: "Engineerium at Zero Latency Webster, Houston is a family-friendly free-roam VR game for ages 10+. Explore a world of colossal flying whales and floating platforms in 20 minutes in Houston, Texas.",
-    url: "https://arcadehouston.com/games/engineerium",
-    images: [{ url: "https://arcadehouston.com/game-engineerium.webp", width: 1200, height: 630, alt: "Engineerium family-friendly VR adventure at Zero Latency Webster, Houston" }],
+    url: "https://arcadegameshoustontexas.com/games/engineerium",
+    images: [{ url: "https://arcadegameshoustontexas.com/game-engineerium.webp", width: 1200, height: 630, alt: "Engineerium family-friendly VR adventure at Zero Latency Webster, Houston" }],
   },
 };
 
@@ -27,17 +27,17 @@ const gameSchema = {
   "genre": "Family Adventure",
   "numberOfPlayers": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 8 },
   "gamePlatform": "Virtual Reality",
-  "url": "https://arcadehouston.com/games/engineerium",
-  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadehouston.com" },
+  "url": "https://arcadegameshoustontexas.com/games/engineerium",
+  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadegameshoustontexas.com" },
 };
 
 const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadehouston.com/" } },
-    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadehouston.com/games" } },
-    { "@type": "ListItem", "position": 3, "item": { "name": "Engineerium", "id": "https://arcadehouston.com/games/engineerium" } },
+    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadegameshoustontexas.com/" } },
+    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadegameshoustontexas.com/games" } },
+    { "@type": "ListItem", "position": 3, "item": { "name": "Engineerium", "id": "https://arcadegameshoustontexas.com/games/engineerium" } },
   ],
 };
 

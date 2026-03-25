@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Arcade Houston',
-  description: 'Terms of Service for Arcade Houston VR arena. Read our booking, safety, and liability policies before your visit.',
-  alternates: { canonical: 'https://arcadehouston.com/terms' },
+  title: 'Terms of Service | Arcade Games Houston Texas',
+  description: 'Terms of Service for Arcade Games Houston Texas VR arena. Read our booking, safety, and liability policies before your visit.',
+  alternates: { canonical: 'https://arcadegameshoustontexas.com/terms' },
   robots: { index: true, follow: true },
 };
 

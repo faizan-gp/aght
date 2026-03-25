@@ -10,33 +10,33 @@ import { Suspense } from "react";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
-const siteUrl = "https://arcadehouston.com";
+const siteUrl = "https://arcadegameshoustontexas.com";
 
 export const metadata: Metadata = {
-  title: "Arcade Houston | Best Arcades, VR, Games & Entertainment Guide (2026)",
-  description: "Houston has 6 top arcades with 275+ games, free-roam VR, retro classics, and party venues. Cidercade charges $12 for all-day play. Zero Latency VR runs $35-50 per session. Complete guide to every arcade in Houston TX.",
+  title: "Arcade Games Houston Texas | Best Arcades, VR Games & Entertainment Guide (2026)",
+  description: "Houston Texas has 6 top arcade game venues with 275+ games, free-roam VR, retro classics, and party venues. Cidercade charges $12 for all-day play. Zero Latency VR runs $35-50 per session. Complete guide to every arcade game venue in Houston TX.",
   keywords: seoKeywords,
-  authors: [{ name: "Arcade Houston" }],
-  creator: "Arcade Houston",
-  publisher: "Arcade Houston",
-  applicationName: "Arcade Houston",
+  authors: [{ name: "Arcade Games Houston Texas" }],
+  creator: "Arcade Games Houston Texas",
+  publisher: "Arcade Games Houston Texas",
+  applicationName: "Arcade Games Houston Texas",
   generator: "Next.js",
-  metadataBase: new URL("https://arcadehouston.com/"),
+  metadataBase: new URL("https://arcadegameshoustontexas.com/"),
   referrer: "origin-when-cross-origin",
   openGraph: {
-    title: "Arcade Houston | Best Arcades, VR, Games & Entertainment Guide (2026)",
-    description: "Houston has 6 top arcades with 275+ games, free-roam VR, retro classics, and party venues. Complete guide to every arcade in Houston TX.",
-    siteName: "Arcade Houston",
-    url: "https://arcadehouston.com/",
-    images: [{ url: "https://arcadehouston.com/OG.jpg", width: 1200, height: 630, alt: "Arcade Houston — best arcades and VR gaming in Houston TX" }],
+    title: "Arcade Games Houston Texas | Best Arcades, VR Games & Entertainment Guide (2026)",
+    description: "Houston Texas has 6 top arcade game venues with 275+ games, free-roam VR, retro classics, and party venues. Complete guide to every arcade game in Houston TX.",
+    siteName: "Arcade Games Houston Texas",
+    url: "https://arcadegameshoustontexas.com/",
+    images: [{ url: "https://arcadegameshoustontexas.com/OG.jpg", width: 1200, height: 630, alt: "Arcade Games Houston Texas — best arcade games and VR gaming in Houston TX" }],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Arcade Houston | Best Arcades, VR, Games & Entertainment Guide (2026)",
-    description: "6 top arcades in Houston TX. Retro, VR, bar arcades, family gaming. Complete guide.",
-    images: ["https://arcadehouston.com/OG.jpg"],
+    title: "Arcade Games Houston Texas | Best Arcades, VR Games & Entertainment Guide (2026)",
+    description: "6 top arcade game venues in Houston TX. Retro, VR, bar arcades, family gaming. Complete guide.",
+    images: ["https://arcadegameshoustontexas.com/OG.jpg"],
     creator: "@zlwebster",
   },
   robots: {
@@ -51,8 +51,8 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://arcadehouston.com/",
-    languages: { "en-US": "https://arcadehouston.com/" },
+    canonical: "https://arcadegameshoustontexas.com/",
+    languages: { "en-US": "https://arcadegameshoustontexas.com/" },
   },
 };
 
@@ -63,11 +63,11 @@ export const metadata: Metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "@id": "https://arcadehouston.com/#organization",
-  "name": "Arcade Houston",
-  "legalName": "Arcade Houston",
-  "url": "https://arcadehouston.com/",
-  "logo": "https://arcadehouston.com/ZL-W.png",
+  "@id": "https://arcadegameshoustontexas.com/#organization",
+  "name": "Arcade Games Houston Texas",
+  "legalName": "Arcade Games Houston Texas",
+  "url": "https://arcadegameshoustontexas.com/",
+  "logo": "https://arcadegameshoustontexas.com/ZL-W.png",
   "foundingDate": "2025",
   "contactPoint": {
     "@type": "ContactPoint",
@@ -97,21 +97,21 @@ const organizationSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://arcadehouston.com/#website",
-  "url": "https://arcadehouston.com/",
-  "name": "Arcade Houston",
-  "description": "Houston's comprehensive arcade guide. 6 top arcades with 275+ games, free-roam VR, retro classics, and party venues.",
-  "publisher": { "@id": "https://arcadehouston.com/#organization" },
+  "@id": "https://arcadegameshoustontexas.com/#website",
+  "url": "https://arcadegameshoustontexas.com/",
+  "name": "Arcade Games Houston Texas",
+  "description": "Houston Texas comprehensive arcade games guide. 6 top venues with 275+ games, free-roam VR, retro classics, and party venues.",
+  "publisher": { "@id": "https://arcadegameshoustontexas.com/#organization" },
   "potentialAction": {
     "@type": "SearchAction",
-    "target": { "@type": "EntryPoint", "urlTemplate": "https://arcadehouston.com/?s={search_term_string}" },
+    "target": { "@type": "EntryPoint", "urlTemplate": "https://arcadegameshoustontexas.com/?s={search_term_string}" },
     "query-input": "required name=search_term_string"
   }
 };
 
 // SiteNavigationElement — each nav item is its own schema entity
 const navSchemas = [
-  { "@context": "https://schema.org", "@type": "SiteNavigationElement", "name": "Arcades in Houston", "url": `${siteUrl}/arcades-in-houston` },
+  { "@context": "https://schema.org", "@type": "SiteNavigationElement", "name": "Arcade Games in Houston", "url": `${siteUrl}/arcade-games-in-houston` },
   { "@context": "https://schema.org", "@type": "SiteNavigationElement", "name": "Experiences", "url": `${siteUrl}/experiences` },
   { "@context": "https://schema.org", "@type": "SiteNavigationElement", "name": "Games",       "url": `${siteUrl}/games` },
   { "@context": "https://schema.org", "@type": "SiteNavigationElement", "name": "Private Events", "url": `${siteUrl}/private-events` },

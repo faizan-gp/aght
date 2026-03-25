@@ -3,14 +3,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'About Arcade Houston | VR Arcade & Entertainment Guide',
-  description: "Arcade Houston covers every arcade in the Houston metro area and operates Zero Latency Webster, Houston — the city's only free-roam VR arena. 2,000 sq ft arena, 8 games, 2-8 players. Webster TX.",
-  alternates: { canonical: 'https://arcadehouston.com/about' },
+  title: 'About Arcade Games Houston Texas | VR Arcade & Entertainment Guide',
+  description: "Arcade Games Houston Texas covers every arcade game venue in the Houston metro area and operates Zero Latency Webster, Houston — the city's only free-roam VR arena. 2,000 sq ft arena, 8 games, 2-8 players. Webster TX.",
+  alternates: { canonical: 'https://arcadegameshoustontexas.com/about' },
   openGraph: {
-    title: 'About Arcade Houston | VR Arcade & Entertainment Guide',
-    description: "Arcade Houston covers every arcade in Houston and operates Zero Latency VR. 2,000 sq ft arena, 8 games. Webster TX.",
-    url: 'https://arcadehouston.com/about',
-    siteName: 'Arcade Houston',
+    title: 'About Arcade Games Houston Texas | VR Arcade & Entertainment Guide',
+    description: "Arcade Games Houston Texas covers every arcade game venue in Houston and operates Zero Latency VR. 2,000 sq ft arena, 8 games. Webster TX.",
+    url: 'https://arcadegameshoustontexas.com/about',
+    siteName: 'Arcade Games Houston Texas',
   },
   robots: { index: true, follow: true },
 };
@@ -18,11 +18,11 @@ export const metadata: Metadata = {
 const aboutPageSchema = {
   '@context': 'https://schema.org',
   '@type': 'AboutPage',
-  '@id': 'https://arcadehouston.com/about',
-  url: 'https://arcadehouston.com/about',
-  name: 'About Arcade Houston',
-  description: "Arcade Houston is a comprehensive guide to every arcade in Houston and operates Zero Latency Webster, Houston — the city's only free-roam VR arena.",
-  publisher: { '@id': 'https://arcadehouston.com/#organization' },
+  '@id': 'https://arcadegameshoustontexas.com/about',
+  url: 'https://arcadegameshoustontexas.com/about',
+  name: 'About Arcade Games Houston Texas',
+  description: "Arcade Games Houston Texas is a comprehensive guide to every arcade in Houston and operates Zero Latency Webster, Houston — the city's only free-roam VR arena.",
+  publisher: { '@id': 'https://arcadegameshoustontexas.com/#organization' },
 };
 
 const stats = [

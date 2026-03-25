@@ -10,12 +10,12 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Singularity at Zero Latency Webster, Houston | Sci-Fi Co-op Free-Roam VR",
   description: "Singularity at Zero Latency Webster, Houston sends 2–8 players into a crippled orbital space station to fight rogue AI in a 30–50 minute free-roam VR co-op mission. Book now in Houston, Texas.",
-  alternates: { canonical: "https://arcadehouston.com/games/singularity" },
+  alternates: { canonical: "https://arcadegameshoustontexas.com/games/singularity" },
   openGraph: {
     title: "Singularity at Zero Latency Webster, Houston",
     description: "Play Singularity at Zero Latency Webster, Houston — a sci-fi free-roam VR co-op game for 2–8 players set aboard a crippled orbital space station. 30–50 minute sessions. Ages 13+. Houston, Texas.",
-    url: "https://arcadehouston.com/games/singularity",
-    images: [{ url: "https://arcadehouston.com/game-singularity.webp", width: 1200, height: 630, alt: "Singularity sci-fi VR at Zero Latency Webster, Houston" }],
+    url: "https://arcadegameshoustontexas.com/games/singularity",
+    images: [{ url: "https://arcadegameshoustontexas.com/game-singularity.webp", width: 1200, height: 630, alt: "Singularity sci-fi VR at Zero Latency Webster, Houston" }],
   },
 };
 
@@ -27,17 +27,17 @@ const gameSchema = {
   "genre": "Sci-Fi Action",
   "numberOfPlayers": { "@type": "QuantitativeValue", "minValue": 2, "maxValue": 8 },
   "gamePlatform": "Virtual Reality",
-  "url": "https://arcadehouston.com/games/singularity",
-  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadehouston.com" },
+  "url": "https://arcadegameshoustontexas.com/games/singularity",
+  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadegameshoustontexas.com" },
 };
 
 const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadehouston.com/" } },
-    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadehouston.com/games" } },
-    { "@type": "ListItem", "position": 3, "item": { "name": "Singularity", "id": "https://arcadehouston.com/games/singularity" } },
+    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadegameshoustontexas.com/" } },
+    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadegameshoustontexas.com/games" } },
+    { "@type": "ListItem", "position": 3, "item": { "name": "Singularity", "id": "https://arcadegameshoustontexas.com/games/singularity" } },
   ],
 };
 

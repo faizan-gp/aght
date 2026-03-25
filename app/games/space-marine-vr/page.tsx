@@ -10,12 +10,12 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Space Marine VR at Zero Latency Webster, Houston | Warhammer 40K Free-Roam VR",
   description: "Space Marine VR at Zero Latency Webster, Houston puts 1–8 players in Warhammer 40K Space Marine armor to fight Tyranid swarms in free-roam VR. 30–45 minute sessions in Houston, Texas.",
-  alternates: { canonical: "https://arcadehouston.com/games/space-marine-vr" },
+  alternates: { canonical: "https://arcadegameshoustontexas.com/games/space-marine-vr" },
   openGraph: {
     title: "Space Marine VR at Zero Latency Webster, Houston",
     description: "Fight Tyranid hordes as a Warhammer 40K Space Marine in this free-roam multiplayer VR experience for 1–8 players at Zero Latency Webster, Houston, Texas.",
-    url: "https://arcadehouston.com/games/space-marine-vr",
-    images: [{ url: "https://arcadehouston.com/game-hero-space-marine.webp", width: 1200, height: 630, alt: "Space Marine VR at Zero Latency Webster, Houston" }],
+    url: "https://arcadegameshoustontexas.com/games/space-marine-vr",
+    images: [{ url: "https://arcadegameshoustontexas.com/game-hero-space-marine.webp", width: 1200, height: 630, alt: "Space Marine VR at Zero Latency Webster, Houston" }],
   },
 };
 
@@ -27,17 +27,17 @@ const gameSchema = {
   "genre": "Sci-Fi Action",
   "numberOfPlayers": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 8 },
   "gamePlatform": "Virtual Reality",
-  "url": "https://arcadehouston.com/games/space-marine-vr",
-  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadehouston.com" },
+  "url": "https://arcadegameshoustontexas.com/games/space-marine-vr",
+  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadegameshoustontexas.com" },
 };
 
 const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadehouston.com/" } },
-    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadehouston.com/games" } },
-    { "@type": "ListItem", "position": 3, "item": { "name": "Space Marine VR", "id": "https://arcadehouston.com/games/space-marine-vr" } },
+    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadegameshoustontexas.com/" } },
+    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadegameshoustontexas.com/games" } },
+    { "@type": "ListItem", "position": 3, "item": { "name": "Space Marine VR", "id": "https://arcadegameshoustontexas.com/games/space-marine-vr" } },
   ],
 };
 

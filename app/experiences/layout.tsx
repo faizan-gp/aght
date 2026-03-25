@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'VR Arcade Experiences Houston | 6 Categories, 8 Games | Arcade Houston',
+  title: 'VR Arcade Games Experiences Houston | 6 Categories, 8 Games | Arcade Games Houston Texas',
   description: "Houston's only free-roam VR arcade offers 6 experience categories and 8 multiplayer games. Zombie survival, sci-fi, PvP esports, family adventures, tropical action, and horror. 2-8 players per session.",
   keywords: [
     'VR arcade experiences Houston',
@@ -15,18 +15,18 @@ export const metadata: Metadata = {
     'team VR Houston',
     'arcade houston',
   ],
-  alternates: { canonical: 'https://arcadehouston.com/experiences' },
+  alternates: { canonical: 'https://arcadegameshoustontexas.com/experiences' },
   openGraph: {
-    title: 'VR Arcade Experiences Houston | 6 Categories, 8 Games | Arcade Houston',
+    title: 'VR Arcade Games Experiences Houston | 6 Categories, 8 Games | Arcade Games Houston Texas',
     description: "Houston's only free-roam VR arcade: 6 experience categories, 8 multiplayer games, 2-8 players per session.",
-    url: 'https://arcadehouston.com/experiences',
-    siteName: 'Arcade Houston',
+    url: 'https://arcadegameshoustontexas.com/experiences',
+    siteName: 'Arcade Games Houston Texas',
     type: 'website',
-    images: [{ url: 'https://arcadehouston.com/og-experiences.webp', width: 1200, height: 630, alt: 'VR Arcade Experiences at Arcade Houston' }],
+    images: [{ url: 'https://arcadegameshoustontexas.com/og-experiences.webp', width: 1200, height: 630, alt: 'VR Arcade Games Experiences at Arcade Games Houston Texas' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'VR Arcade Experiences Houston | 6 Categories, 8 Games | Arcade Houston',
+    title: 'VR Arcade Games Experiences Houston | 6 Categories, 8 Games | Arcade Games Houston Texas',
     description: "6 VR experience categories at Houston's only free-roam VR arcade. 2-8 players.",
   },
 };

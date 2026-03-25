@@ -10,12 +10,12 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Outbreak at Zero Latency Webster, Houston | Zombie Survival Free-Roam VR",
   description: "Outbreak at Zero Latency Webster, Houston puts 2–8 players in a free-roam VR zombie survival mission across post-apocalyptic environments. 30-minute sessions. Book now in Houston, Texas.",
-  alternates: { canonical: "https://arcadehouston.com/games/outbreak" },
+  alternates: { canonical: "https://arcadegameshoustontexas.com/games/outbreak" },
   openGraph: {
     title: "Outbreak at Zero Latency Webster, Houston",
     description: "Play Outbreak at Zero Latency Webster, Houston — free-roam multiplayer VR for 2–8 players set in a zombie-overrun world. 30-minute sessions in Houston, Texas.",
-    url: "https://arcadehouston.com/games/outbreak",
-    images: [{ url: "https://arcadehouston.com/game-outbreak.webp", width: 1200, height: 630, alt: "Outbreak zombie survival VR at Zero Latency Webster, Houston" }],
+    url: "https://arcadegameshoustontexas.com/games/outbreak",
+    images: [{ url: "https://arcadegameshoustontexas.com/game-outbreak.webp", width: 1200, height: 630, alt: "Outbreak zombie survival VR at Zero Latency Webster, Houston" }],
   },
 };
 
@@ -27,17 +27,17 @@ const gameSchema = {
   "genre": "Zombie Survival",
   "numberOfPlayers": { "@type": "QuantitativeValue", "minValue": 2, "maxValue": 8 },
   "gamePlatform": "Virtual Reality",
-  "url": "https://arcadehouston.com/games/outbreak",
-  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadehouston.com" },
+  "url": "https://arcadegameshoustontexas.com/games/outbreak",
+  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadegameshoustontexas.com" },
 };
 
 const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadehouston.com/" } },
-    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadehouston.com/games" } },
-    { "@type": "ListItem", "position": 3, "item": { "name": "Outbreak", "id": "https://arcadehouston.com/games/outbreak" } },
+    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadegameshoustontexas.com/" } },
+    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadegameshoustontexas.com/games" } },
+    { "@type": "ListItem", "position": 3, "item": { "name": "Outbreak", "id": "https://arcadegameshoustontexas.com/games/outbreak" } },
   ],
 };
 

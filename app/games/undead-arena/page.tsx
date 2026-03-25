@@ -10,12 +10,12 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Undead Arena at Zero Latency Webster, Houston | Wave Survival Zombie VR",
   description: "Undead Arena at Zero Latency Webster, Houston is a free-roam VR wave survival game for 2–8 players. Fight escalating zombie hordes in a multi-level arena for 30 minutes in Houston, Texas. Book now.",
-  alternates: { canonical: "https://arcadehouston.com/games/undead-arena" },
+  alternates: { canonical: "https://arcadegameshoustontexas.com/games/undead-arena" },
   openGraph: {
     title: "Undead Arena at Zero Latency Webster, Houston",
     description: "Undead Arena at Zero Latency Webster, Houston puts 2–8 players in a free-roam VR zombie wave survival arena for 30 minutes. Each wave increases in intensity. Ages 13+. Houston, Texas.",
-    url: "https://arcadehouston.com/games/undead-arena",
-    images: [{ url: "https://arcadehouston.com/game-undead-arena.webp", width: 1200, height: 630, alt: "Undead Arena zombie VR at Zero Latency Webster, Houston" }],
+    url: "https://arcadegameshoustontexas.com/games/undead-arena",
+    images: [{ url: "https://arcadegameshoustontexas.com/game-undead-arena.webp", width: 1200, height: 630, alt: "Undead Arena zombie VR at Zero Latency Webster, Houston" }],
   },
 };
 
@@ -27,17 +27,17 @@ const gameSchema = {
   "genre": "Zombie Action",
   "numberOfPlayers": { "@type": "QuantitativeValue", "minValue": 2, "maxValue": 8 },
   "gamePlatform": "Virtual Reality",
-  "url": "https://arcadehouston.com/games/undead-arena",
-  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadehouston.com" },
+  "url": "https://arcadegameshoustontexas.com/games/undead-arena",
+  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadegameshoustontexas.com" },
 };
 
 const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadehouston.com/" } },
-    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadehouston.com/games" } },
-    { "@type": "ListItem", "position": 3, "item": { "name": "Undead Arena", "id": "https://arcadehouston.com/games/undead-arena" } },
+    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadegameshoustontexas.com/" } },
+    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadegameshoustontexas.com/games" } },
+    { "@type": "ListItem", "position": 3, "item": { "name": "Undead Arena", "id": "https://arcadegameshoustontexas.com/games/undead-arena" } },
   ],
 };
 

@@ -3,9 +3,9 @@ import BookGameButton from "@/components/BookBtn";
 import { Clock, Mail, MapPin, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact Arcade Houston | Location, Hours & Booking Help",
-  description: "Get in touch with Arcade Houston. Find our VR arena location, hours, phone number, and email. Serving Houston, Clear Lake, League City, and Pearland in Webster TX.",
-  alternates: { canonical: "https://arcadehouston.com/contact-us" },
+  title: "Contact Arcade Games Houston Texas | Location, Hours & Booking Help",
+  description: "Get in touch with Arcade Games Houston Texas. Find our VR arena location, hours, phone number, and email. Serving Houston, Clear Lake, League City, and Pearland in Webster TX.",
+  alternates: { canonical: "https://arcadegameshoustontexas.com/contact-us" },
 };
 
 export default function ContactPage() {

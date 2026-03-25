@@ -10,12 +10,12 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Haunted VR at Zero Latency Webster, Houston | Full-Body Horror Free-Roam VR",
   description: "Haunted at Zero Latency Webster, Houston is a free-roam VR horror game for 2–8 players aged 16+. Walk physically through a horror house with spatial 3D audio and room-scale tracking. 30-minute sessions in Houston, Texas.",
-  alternates: { canonical: "https://arcadehouston.com/games/haunted" },
+  alternates: { canonical: "https://arcadegameshoustontexas.com/games/haunted" },
   openGraph: {
     title: "Haunted VR at Zero Latency Webster, Houston",
     description: "Haunted at Zero Latency Webster, Houston puts 2–8 players in a free-roam VR horror environment with spatial audio and room-scale tracking. 30 minutes. Ages 16+. Houston, Texas.",
-    url: "https://arcadehouston.com/games/haunted",
-    images: [{ url: "https://arcadehouston.com/haunted-house-bg.webp", width: 1200, height: 630, alt: "Haunted VR horror experience at Zero Latency Webster, Houston" }],
+    url: "https://arcadegameshoustontexas.com/games/haunted",
+    images: [{ url: "https://arcadegameshoustontexas.com/haunted-house-bg.webp", width: 1200, height: 630, alt: "Haunted VR horror experience at Zero Latency Webster, Houston" }],
   },
 };
 
@@ -27,17 +27,17 @@ const gameSchema = {
   "genre": "Horror",
   "numberOfPlayers": { "@type": "QuantitativeValue", "minValue": 2, "maxValue": 8 },
   "gamePlatform": "Virtual Reality",
-  "url": "https://arcadehouston.com/games/haunted",
-  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadehouston.com" },
+  "url": "https://arcadegameshoustontexas.com/games/haunted",
+  "provider": { "@type": "Organization", "name": "Zero Latency Webster, Houston", "url": "https://arcadegameshoustontexas.com" },
 };
 
 const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadehouston.com/" } },
-    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadehouston.com/games" } },
-    { "@type": "ListItem", "position": 3, "item": { "name": "Haunted", "id": "https://arcadehouston.com/games/haunted" } },
+    { "@type": "ListItem", "position": 1, "item": { "name": "Home", "id": "https://arcadegameshoustontexas.com/" } },
+    { "@type": "ListItem", "position": 2, "item": { "name": "Games", "id": "https://arcadegameshoustontexas.com/games" } },
+    { "@type": "ListItem", "position": 3, "item": { "name": "Haunted", "id": "https://arcadegameshoustontexas.com/games/haunted" } },
   ],
 };
 

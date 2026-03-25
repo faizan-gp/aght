@@ -5,18 +5,18 @@ import { getAllBlogPosts } from "@/lib/blogData";
 import { Calendar, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Arcade Houston Blog | VR Tips, Houston Arcades & Entertainment Guide",
-  description: "Explore the Arcade Houston blog — VR game guides, Houston arcade reviews, activity ideas, team building tips, birthday inspiration, and everything arcades in the Houston metro area.",
-  alternates: { canonical: "https://arcadehouston.com/blog" },
+  title: "Arcade Games Houston Texas Blog | VR Tips, Arcade Reviews & Entertainment Guide",
+  description: "Explore the Arcade Games Houston Texas blog — VR game guides, Houston arcade game reviews, activity ideas, team building tips, birthday inspiration, and everything arcade games in the Houston metro area.",
+  alternates: { canonical: "https://arcadegameshoustontexas.com/blog" },
 };
 
 const blogSchema = {
   "@context": "https://schema.org",
   "@type": "Blog",
-  "name": "Arcade Houston Blog",
-  "description": "Houston arcade guides, VR tips, and everything arcades and entertainment in the Houston metro area.",
-  "url": "https://arcadehouston.com/blog",
-  "publisher": { "@type": "Organization", "name": "Arcade Houston", "url": "https://arcadehouston.com" },
+  "name": "Arcade Games Houston Texas Blog",
+  "description": "Houston arcade games guides, VR tips, and everything arcade games and entertainment in the Houston metro area.",
+  "url": "https://arcadegameshoustontexas.com/blog",
+  "publisher": { "@type": "Organization", "name": "Arcade Games Houston Texas", "url": "https://arcadegameshoustontexas.com" },
 };
 
 export default function BlogPage() {
@@ -27,8 +27,8 @@ export default function BlogPage() {
       <section className="py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="text-center mb-14">
-            <h1 className="font-orbitron text-4xl md:text-5xl font-black text-white">Arcade Houston <span className="text-stroke-cyan">Blog</span></h1>
-            <p className="mt-4 max-w-2xl mx-auto text-[#7DD3FC]">Houston arcade guides, VR tips, activity ideas, and everything you need to know about arcades and free-roam VR in the Houston metro area.</p>
+            <h1 className="font-orbitron text-4xl md:text-5xl font-black text-white">Arcade Games Houston Texas <span className="text-stroke-cyan">Blog</span></h1>
+            <p className="mt-4 max-w-2xl mx-auto text-[#7DD3FC]">Houston arcade games guides, VR tips, activity ideas, and everything you need to know about arcade games and free-roam VR in the Houston metro area.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {posts.map((post, i) => (
